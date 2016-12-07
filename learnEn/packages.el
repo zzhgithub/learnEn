@@ -35,8 +35,8 @@
 
 (defun learnEn/init-youdao-dictionary()
   (use-package youdao-dictionary
-    :init
     :defer t
+    :init
     (spacemacs/set-leader-keys "os" 'youdao-dictionary-search-at-point+)
     :config
     (progn
