@@ -36,7 +36,17 @@
 (defun learnEn/init-youdao-dictionary()
   (use-package youdao-dictionary
     :init
+    :defer t
     (spacemacs/set-leader-keys "os" 'youdao-dictionary-search-at-point+)
+    :config
+    (progn
+      ;; Enable Cache
+      (setq url-automatic-caching t
+            ;; Set file path for saving search history
+            youdao-dictionary-search-history-file
+            (concat spacemacs-cache-directory ".youdao")
+            ;; Enable Chinese word segmentation support
+            youdao-dictionary-use-chinese-word-segmentation t))
     )
   )
 
