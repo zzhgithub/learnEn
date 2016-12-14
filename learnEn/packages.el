@@ -38,6 +38,7 @@
     :defer t
     :init
     (spacemacs/set-leader-keys "os" 'youdao-dictionary-search-at-point+)
+    (spacemacs/set-leader-keys "oa" 'learnEn//add-word-at-ponit)
     :config
     (progn
       ;; Enable Cache
@@ -46,8 +47,7 @@
             youdao-dictionary-search-history-file
             (concat spacemacs-cache-directory ".youdao")
             ;; Enable Chinese word segmentation support
-            youdao-dictionary-use-chinese-word-segmentation t))
-    )
-  )
+            youdao-dictionary-use-chinese-word-segmentation t))))
+
 
 ;;; packages.el ends here
