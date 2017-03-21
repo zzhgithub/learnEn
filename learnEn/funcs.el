@@ -18,10 +18,11 @@
   "Major mode for learnEn.
 \\{learnEn-mode-map}"
   (read-only-mode 1))
-(require 'org)
-(setq learnEn-mode-map (copy-keymap org-mode-map))
-(with-eval-after-load 'evil
-  (evil-define-key 'normal learnEn-mode-map "q" 'quit-window))
+
+(with-eval-after-load 'org
+  (setq learnEn-mode-map (copy-keymap org-mode-map))
+  (with-eval-after-load 'evil
+    (evil-define-key 'normal learnEn-mode-map "q" 'quit-window)))
 
 ;;
 (defun learnEn//add-word-at-ponit ()

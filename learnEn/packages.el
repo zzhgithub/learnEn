@@ -39,6 +39,8 @@
     :init
     (spacemacs/set-leader-keys "os" 'youdao-dictionary-search-at-point+)
     (spacemacs/set-leader-keys "oa" 'learnEn//add-word-at-ponit)
+    (spacemacs/set-leader-keys "ov" 'youdao-dictionary-play-voice-at-point)
+    (spacemacs/set-leader-keys "of" 'youdao-dictionary-search-from-input)
     :config
     (progn
       ;; Enable Cache

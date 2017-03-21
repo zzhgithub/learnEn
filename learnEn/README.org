@@ -11,7 +11,9 @@
 
 * Description
 This layer does wonderful things:
-  - thing01
+  - 方便的单词查询功能
+  - 添加单词本的功能（未完成）
+  - 快速单词读音
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -22,7 +24,9 @@ file.
 
 | Key Binding | Description    |
 |-------------+----------------|
-| ~SPC x x x~ | Does thing01   |
+| ~SPC o a s~ | seach at point |
+| ~SPC o a v~ | vioce at point |
+| ~SPC o a f~ | seach at input |
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:
 # [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
