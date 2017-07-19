@@ -5,9 +5,9 @@
 
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
- - [[#description][Description]]
- - [[#install][Install]]
- - [[#key-bindings][Key bindings]]
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
 
 * Description
 This layer does wonderful things:
@@ -24,9 +24,9 @@ file.
 
 | Key Binding | Description    |
 |-------------+----------------|
-| ~SPC o a s~ | seach at point |
-| ~SPC o a v~ | vioce at point |
-| ~SPC o a f~ | seach at input |
+| ~SPC o s~   | seach at point |
+| ~SPC o v~   | vioce at point |
+| ~SPC o f~   | seach at input |
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:
 # [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
